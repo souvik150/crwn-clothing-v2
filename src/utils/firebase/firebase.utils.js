@@ -1,3 +1,5 @@
+/* eslint-disable no-unused-vars */
+
 import { initializeApp } from "firebase/app";
 import {
   getAuth,
@@ -11,14 +13,13 @@ import {
 import { getFirestore, doc, getDoc, setDoc } from "firebase/firestore";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDDU4V-_QV3M8GyhC9SVieRTDM4dbiT0Yk",
-  authDomain: "crwn-clothing-db-98d4d.firebaseapp.com",
-  projectId: "crwn-clothing-db-98d4d",
-  storageBucket: "crwn-clothing-db-98d4d.appspot.com",
-  messagingSenderId: "626766232035",
-  appId: "1:626766232035:web:506621582dab103a4d08d6",
+  apiKey: "AIzaSyBOnDEyeqWjH_B44hYfk3v6KCQRNoZPRD8",
+  authDomain: "beginner-e-commerce-website.firebaseapp.com",
+  projectId: "beginner-e-commerce-website",
+  storageBucket: "beginner-e-commerce-website.appspot.com",
+  messagingSenderId: "815300356458",
+  appId: "1:815300356458:web:02d06b372234b1a2d3dd13",
 };
-
 const firebaseApp = initializeApp(firebaseConfig);
 
 const googleProvider = new GoogleAuthProvider();
